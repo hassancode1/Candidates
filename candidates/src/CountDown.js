@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css'
 
 function CountDown() {
   let seconds = 6;
@@ -20,7 +21,7 @@ function CountDown() {
   }
 
   return (
-    <div>
+    <div className="container">
       <h2>
         value: {seconds} | <span id="timed"></span>
       </h2>
